@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Navbar.module.scss"
 import Logo from "../../assets/images/moonstar.svg"
+import {Link} from "react-router-dom"
 
 function Navbar() {
     return ( 
@@ -10,9 +11,9 @@ function Navbar() {
                     <nav>
                         <ul>
                             <li>
-                                <a href="/">Home</a>
-                                <a href="/page1">page1</a>
-                                <a href="/page2">page2</a>
+                                <Link to="/">Home</Link>
+                                <Link to="/page1">page1</Link>
+                                <Link to="/page2">page2</Link>
                             </li>
                         </ul>
                     </nav>
