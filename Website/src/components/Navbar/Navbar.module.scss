@@ -1,0 +1,25 @@
+@import "../../utilities/colors.module.scss";
+
+.head{
+    display:flex;
+  }
+   nav{
+
+    ul > li {
+        list-style: none;
+      }
+  }
+
+  a {
+    padding-right: 1em;
+    text-decoration: none;
+
+  }
+
+.logo{
+    width:50px;
+    height: auto;
+    display: flex;
+    padding-right: 2em;
+    color: $black;
+  }
