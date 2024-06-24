@@ -1,6 +1,5 @@
 @import "./utilities/colors.module.scss";
 
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,6 +12,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1rem;
+  text-align: left;
 }
 
 a {
