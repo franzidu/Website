@@ -1,0 +1,15 @@
+@import "../../utilities/colors.module.scss";
+
+.Tiles{
+    background: rgb(63,94,251);
+    background: rgb(37, 169, 236);
+//background-color: $slightlyLighterBlue;
+    min-width: 50px;
+    max-width: 300px;
+    min-height: 70px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 1rem;  //display: flex;
+    text-transform: none;
+
+}
