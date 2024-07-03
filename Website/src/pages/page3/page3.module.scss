@@ -1,4 +1,42 @@
+@import "../../utilities/colors.module.scss";
+
 .TextContainer{
     max-width: 60%;
     margin: 0 auto;
+}
+
+.FormContainer{
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Formular{
+    display: flex;
+    padding:1em;
+    margin: 0 auto;
+}
+label{
+    padding-right:1em;
+}
+input {
+    border:none;
+    border-radius: 1em;
+    width: 200%;
+    min-height: 2em;
+}
+
+textarea{
+    border:none;
+    border-radius: 1em;
+    min-width: 30em;
+    min-height: 5em;
+
+}
+
+.Button{
+    max-width:5em;
+    max-height:2em;
+    background-color: $lightBlue;
+    color: $white;
 }

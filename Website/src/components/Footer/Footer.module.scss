@@ -2,7 +2,7 @@
 
 .Footer{
     margin-top: 3rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
 
     background-color: $white;
@@ -28,4 +28,8 @@
     margin-top: 0;
     font-weight: bold;
     font-size:large;
+    line-height: 3em;
+}
+.MiniText{
+    font-size: 0.8em;
 }

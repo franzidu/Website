@@ -18,6 +18,7 @@ function Footer() {
                     <a>Kontaktformular</a>
                 </div>
             </span>
+            <p className={styles.MiniText}>@Franziska Dudichum 2024. Alle Rechte vorbehalten.</p>
         </div>
      );
 }
