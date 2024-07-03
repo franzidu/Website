@@ -1,25 +1,36 @@
 @import "../../utilities/colors.module.scss";
 
-.head{
-    display:flex;
-  }
-   nav{
+.head {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 60%;
+  margin-top:2em;
+}
 
-    ul > li {
-        list-style: none;
-      }
-  }
+nav {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  ul {
+    padding-right: 2.5em;
 
-  a {
-    padding-right: 1em;
-    text-decoration: none;
-
+    li {
+      list-style: none;
+    }
   }
+}
+a {
+  padding-right: 1em;
+  padding-left: 1em;
+}
 
-.logo{
-    width:50px;
-    height: auto;
-    display: flex;
-    padding-right: 2em;
-    color: $black;
-  }
+.logo {
+  width: 50px;
+  height: auto;
+  display: flex;
+  padding-right: 2em;
+  padding-left: 2em;
+  color: $black;
+}

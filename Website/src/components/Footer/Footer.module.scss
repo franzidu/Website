@@ -2,12 +2,21 @@
 
 .Footer{
     margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    background-color: $white;
 }
 
 .Container{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     gap: 2rem;
+    max-width: 60%;
+    margin: 0 auto;
+
+
 }
 
 .FooterContent{
