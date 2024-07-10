@@ -1,9 +1,35 @@
 @import "../../utilities/colors.module.scss";
 
 .Home{
-    margin: 0 auto;
+    background-color: $white;
 }
-.TextContainer{
+.ContentContainer{
     max-width: 60%;
     margin: 0 auto;
+    align-items: center;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.TextContainer{
+    text-align: left;
+
+}
+
+.Foto{
+    padding-left:5em;
+    max-width: 600px;
+    min-width: 400px;
+    transform: scaleX(1);
+    filter: drop-shadow(10px 10px 10px #626262);
+    vertical-align: right;
+    
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    :first-child{
+        text-wrap: nowrap;
+    }
 }

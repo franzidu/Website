@@ -60,7 +60,7 @@ function page3() {
           Bitte gib deinen Namen und deine E-Mail Adresse an, damit ich dich
           erreichen kann.
         </p>
-        <p>Ich werde mich versuche, mich schnellstmöglich bei dir zu melden.</p>
+        <p>Ich versuche, mich schnellstmöglich bei dir zu melden.</p>
         <ContactMe />
       </div>
       <Footer />
