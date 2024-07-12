@@ -15,7 +15,7 @@ function Footer() {
                 <div className={styles.FooterContent}>
                     <span className={styles.Headline}>Kontakt</span>
                     <Link to="/Impressum">Impressum &<br></br>Datenschutzerklärung</Link>
-                    <a>Kontaktformular</a>
+                    <Link to="/Contact">Kontaktformular</Link>
                 </div>
             </span>
             <p className={styles.MiniText}>@Franziska Dudichum 2024. Alle Rechte vorbehalten.</p>

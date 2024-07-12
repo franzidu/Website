@@ -13,8 +13,7 @@ function Home() {
           <h1>hi!</h1>
           <div className={styles.flexRow}>
           <p>(\_/)<br/>
-          ( ·_·)<br/>
-          /> ❤️</p>
+          ( ·_·)<br/> /> ❤️</p>
           <p>
             Ich bin Franzi, 24 Jahre jung und studiere Informatik mit
             Schwerpunkt auf Kommunikation und Medien.<br/><br/>

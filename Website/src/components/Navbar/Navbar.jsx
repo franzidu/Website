@@ -11,7 +11,7 @@ function Navbar() {
           <ul>
             <li>
               <Link to="/">Home</Link>
-              <Link to="/page1">page1</Link>
+              <Link to="/ProjectsPage">Projekte</Link>
             </li>
           </ul>
           <Link Link to="/">
@@ -20,7 +20,7 @@ function Navbar() {
           <ul>
             <li>
               <Link to="/page2">page2</Link>
-              <Link to="/page3">page3</Link>
+              <Link to="/Contact">Kontakt</Link>
             </li>
           </ul>
         </nav>

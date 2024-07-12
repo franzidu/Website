@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import styles from "./page3.module.scss";
+import styles from "./Contact.module.scss";
 
 const ContactMe = () => {
   const form = useRef();
@@ -38,8 +38,8 @@ const ContactMe = () => {
           <div className={styles.Formular}>
             <label>Nachricht</label>
             <textarea name="message" />
-            <input className={styles.Button}type="submit" value="Send" />
           </div>
+          <input className={styles.Button}type="submit" value="Senden" />
         </div>
       </form>
     </div>
